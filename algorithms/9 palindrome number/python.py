@@ -6,6 +6,7 @@ An integer is a palindrome when it reads the same backward as forward.
 For example, 121 is a palindrome while 123 is not.
 """
 
+#*SUCCESS
 def isPalindrome(x: int) -> bool:
     return str(x)[::-1] == str(x)
 

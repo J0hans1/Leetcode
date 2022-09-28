@@ -5,6 +5,6 @@ A string is called a palindrome string if the reverse of that string is the same
 */
 
 //*SUCCESS
-var isPalindrome = function(x) {
-    return x.toString().split("").reverse().join("") == x.toString()
+function isPalindrome(x: number): boolean {
+    return x.toString().split("").reverse().join("") == x.toString();
 };
