@@ -13,6 +13,13 @@ def two_sum(target, nums):
             if i + nums[j] == target:
                 return [nums.index(i), j]
 
+#!CLOSE
+def two_sum2(target, nums):
+    for i in nums:
+        for j in nums[nums.index(i) + 1::]:
+            if i + j == target:
+                return [nums.index(i), nums.index(j)] 
+
 nums = [2,5,5,11]
 target = int(input("integer target: "))
 print(two_sum(target, nums))
