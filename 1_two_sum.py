@@ -6,7 +6,7 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 """
 
-#SUCCESS
+#*SUCCESS
 def two_sum(target, nums):
     for i in nums:
         for j in range(nums.index(i) + 1, len(nums)):
