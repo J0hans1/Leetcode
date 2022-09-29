@@ -14,6 +14,8 @@ the folder will be named by the convention:
 every folder will have contain files with the same name as the language used to solve the challenge:
 ```<lanuage>.<format>```
 
+an example of what path will look like: ```../Leetcode/Algorithms/1 two sum/python.py```
+
 ### Completed and uncompleted challenges
 
 some challenges have been completed and will be commented with:
