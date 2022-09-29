@@ -33,6 +33,7 @@ Given a roman numeral, convert it to an integer.
 def romanToInt(s: str) -> int:
     sum = 0
     i = 0
+    
     double = {
         "IV" : 4,
         "IX" : 9,
@@ -41,6 +42,7 @@ def romanToInt(s: str) -> int:
         "CD" : 400,
         "CM" : 900
     }
+    
     singular = {
         "I" : 1,
         "V" : 5,
@@ -50,6 +52,7 @@ def romanToInt(s: str) -> int:
         "D" : 500,
         "M" : 1000
     }
+    
     while i < len(s):
         if i + 1 != len(s):
             if s[i:i+2] in double:
