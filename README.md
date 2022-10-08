@@ -1,6 +1,6 @@
 # My Leetcode repository
 
-This repository contains a set of leetcode solutions/attempts at challenges.
+This repository contains a set of leetcode solutions.
 
 ## Guide
 
