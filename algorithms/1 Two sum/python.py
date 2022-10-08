@@ -13,7 +13,3 @@ def two_sum(target, nums):
             if i + nums[j] == target:
                 return [nums.index(i), j]
 
-nums = [2,5,5,11]
-target = int(input("integer target: "))
-print(two_sum(target, nums))
-

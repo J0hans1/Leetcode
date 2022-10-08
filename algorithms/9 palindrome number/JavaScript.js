@@ -1,7 +1,9 @@
 /*
-Given a string s, return the longest palindromic substring in s.
+Given an integer x, return true if x is palindrome integer.
 
-A string is called a palindrome string if the reverse of that string is the same as the original string.
+An integer is a palindrome when it reads the same backward as forward.
+
+For example, 121 is a palindrome while 123 is not.
 */
 
 //*SUCCESS
