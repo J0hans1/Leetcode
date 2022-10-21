@@ -1,6 +1,6 @@
 # My Leetcode repository
 
-This repository contains a set of leetcode solutions/attempts at challenges.
+This repository contains a set of leetcode solutions.
 
 ## Guide
 
@@ -15,15 +15,6 @@ every folder will have contain files with the same name as the language used to 
 ```<lanuage>.<format>```
 
 an example of what path will look like: ```../Leetcode/Algorithms/1 two sum/python.py```
-
-### Completed and uncompleted challenges
-
-some challenges have been completed and will be commented with:
-```*SUCCESS```
-above the function/method
-
-uncompleted challenges will be commented in a similar manner with:
-```!<Status (how close to the solution are you))> <potential fix>```
 
 ### Description of the challenge
 
