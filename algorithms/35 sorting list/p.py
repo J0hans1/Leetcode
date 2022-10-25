@@ -18,15 +18,11 @@ Output: 4
 
 '''
 
-from ast import main
+from bisect import bisect
 
-
-class Solution:
+class Solution:        
     def searchInsert(self, nums: list[int], target: int) -> int:
         if target in nums:
-            nums.sort()
             return nums.index(target)
         else:
-            nums.append(target)
-            nums.sort()
-            return nums.index(target)
+            return bisect(nums, target)
